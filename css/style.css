@@ -1,0 +1,85 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 10px 0 20px;
+}
+
+.container {
+    max-width: 760px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message {
+    background-color: rgb(180, 177, 177);
+    max-width: 60%;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 760px;
+    margin: auto;
+    padding: 10px;
+}
+
+#messageInp {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 36px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 38px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #eee;
+}
